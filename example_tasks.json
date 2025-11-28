@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    {
+      "content": "Implement user authentication flow",
+      "description": "<strong>Priority:</strong> High<br><br>Set up OAuth2 authentication with JWT tokens. Include refresh token logic.",
+      "due_on": "2024-12-15",
+      "priority": "high",
+      "category": "backend"
+    },
+    {
+      "content": "Fix memory leak in dashboard component",
+      "description": "Memory leak detected when switching between dashboard tabs. Need to cleanup useEffect subscriptions.",
+      "due_on": "2024-12-10",
+      "priority": "critical",
+      "source_file": "src/components/Dashboard.tsx",
+      "source_line": 45,
+      "category": "frontend"
+    },
+    {
+      "content": "Add unit tests for payment service",
+      "description": "Current coverage is 45%. Need to add tests for:<ul><li>Stripe integration</li><li>Refund handling</li><li>Webhook processing</li></ul>",
+      "priority": "normal",
+      "category": "testing"
+    },
+    {
+      "content": "Update API documentation",
+      "description": "Swagger docs are outdated. Update with new endpoints added in v2.1",
+      "priority": "low",
+      "category": "documentation"
+    },
+    "Simple task without metadata - just a string"
+  ]
+}

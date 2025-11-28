@@ -1,0 +1,7 @@
+{
+  "account_id": "YOUR_ACCOUNT_ID",
+  "access_token": "YOUR_ACCESS_TOKEN",
+  "project_id": "YOUR_PROJECT_ID",
+  "todolist_id": "YOUR_TODOLIST_ID",
+  "user_agent": "YourApp (your-email@example.com)"
+}
